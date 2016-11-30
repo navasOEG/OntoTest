@@ -1,0 +1,213 @@
+{
+  "@context" : {
+    "DateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#DateTimeDescription"
+    },
+    "intervalFinishes" : {
+      "@id" : "http://www.w3.org/2006/time#intervalFinishes",
+      "@type" : "@id"
+    },
+    "hasDurationDescription" : {
+      "@id" : "http://www.w3.org/2006/time#hasDurationDescription",
+      "@type" : "@id"
+    },
+    "dayOfWeek" : {
+      "@id" : "http://www.w3.org/2006/time#dayOfWeek",
+      "@type" : "@id"
+    },
+    "DayOfWeek" : {
+      "@id" : "http://www.w3.org/2006/time#DayOfWeek"
+    },
+    "intervalMeets" : {
+      "@id" : "http://www.w3.org/2006/time#intervalMeets",
+      "@type" : "@id"
+    },
+    "DurationDescription" : {
+      "@id" : "http://www.w3.org/2006/time#DurationDescription"
+    },
+    "after" : {
+      "@id" : "http://www.w3.org/2006/time#after",
+      "@type" : "@id"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "intervalOverlappedBy" : {
+      "@id" : "http://www.w3.org/2006/time#intervalOverlappedBy",
+      "@type" : "@id"
+    },
+    "TemporalUnit" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalUnit"
+    },
+    "intervalContains" : {
+      "@id" : "http://www.w3.org/2006/time#intervalContains",
+      "@type" : "@id"
+    },
+    "hours" : {
+      "@id" : "http://www.w3.org/2006/time#hours",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Instant" : {
+      "@id" : "http://www.w3.org/2006/time#Instant"
+    },
+    "TimeZone" : {
+      "@id" : "http://www.w3.org/2006/timezone#TimeZone"
+    },
+    "months" : {
+      "@id" : "http://www.w3.org/2006/time#months",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "second" : {
+      "@id" : "http://www.w3.org/2006/time#second",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "inXSDDateTime" : {
+      "@id" : "http://www.w3.org/2006/time#inXSDDateTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "timeZone" : {
+      "@id" : "http://www.w3.org/2006/time#timeZone",
+      "@type" : "@id"
+    },
+    "hour" : {
+      "@id" : "http://www.w3.org/2006/time#hour",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "xsdDateTime" : {
+      "@id" : "http://www.w3.org/2006/time#xsdDateTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "DateTimeInterval" : {
+      "@id" : "http://www.w3.org/2006/time#DateTimeInterval"
+    },
+    "Interval" : {
+      "@id" : "http://www.w3.org/2006/time#Interval"
+    },
+    "intervalAfter" : {
+      "@id" : "http://www.w3.org/2006/time#intervalAfter",
+      "@type" : "@id"
+    },
+    "intervalOverlaps" : {
+      "@id" : "http://www.w3.org/2006/time#intervalOverlaps",
+      "@type" : "@id"
+    },
+    "hasEnd" : {
+      "@id" : "http://www.w3.org/2006/time#hasEnd",
+      "@type" : "@id"
+    },
+    "intervalDuring" : {
+      "@id" : "http://www.w3.org/2006/time#intervalDuring",
+      "@type" : "@id"
+    },
+    "minutes" : {
+      "@id" : "http://www.w3.org/2006/time#minutes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "TemporalEntity" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+    },
+    "hasBeginning" : {
+      "@id" : "http://www.w3.org/2006/time#hasBeginning",
+      "@type" : "@id"
+    },
+    "ProperInterval" : {
+      "@id" : "http://www.w3.org/2006/time#ProperInterval"
+    },
+    "intervalMetBy" : {
+      "@id" : "http://www.w3.org/2006/time#intervalMetBy",
+      "@type" : "@id"
+    },
+    "seconds" : {
+      "@id" : "http://www.w3.org/2006/time#seconds",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "week" : {
+      "@id" : "http://www.w3.org/2006/time#week",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "hasDateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription",
+      "@type" : "@id"
+    },
+    "years" : {
+      "@id" : "http://www.w3.org/2006/time#years",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "intervalFinishedBy" : {
+      "@id" : "http://www.w3.org/2006/time#intervalFinishedBy",
+      "@type" : "@id"
+    },
+    "inDateTime" : {
+      "@id" : "http://www.w3.org/2006/time#inDateTime",
+      "@type" : "@id"
+    },
+    "year" : {
+      "@id" : "http://www.w3.org/2006/time#year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "days" : {
+      "@id" : "http://www.w3.org/2006/time#days",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Year" : {
+      "@id" : "http://www.w3.org/2006/time#Year"
+    },
+    "inside" : {
+      "@id" : "http://www.w3.org/2006/time#inside",
+      "@type" : "@id"
+    },
+    "minute" : {
+      "@id" : "http://www.w3.org/2006/time#minute",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "intervalBefore" : {
+      "@id" : "http://www.w3.org/2006/time#intervalBefore",
+      "@type" : "@id"
+    },
+    "month" : {
+      "@id" : "http://www.w3.org/2006/time#month",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gMonth"
+    },
+    "weeks" : {
+      "@id" : "http://www.w3.org/2006/time#weeks",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "day" : {
+      "@id" : "http://www.w3.org/2006/time#day",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gDay"
+    },
+    "intervalEquals" : {
+      "@id" : "http://www.w3.org/2006/time#intervalEquals",
+      "@type" : "@id"
+    },
+    "before" : {
+      "@id" : "http://www.w3.org/2006/time#before",
+      "@type" : "@id"
+    },
+    "January" : {
+      "@id" : "http://www.w3.org/2006/time#January"
+    },
+    "intervalStarts" : {
+      "@id" : "http://www.w3.org/2006/time#intervalStarts",
+      "@type" : "@id"
+    },
+    "intervalStartedBy" : {
+      "@id" : "http://www.w3.org/2006/time#intervalStartedBy",
+      "@type" : "@id"
+    },
+    "unitType" : {
+      "@id" : "http://www.w3.org/2006/time#unitType",
+      "@type" : "@id"
+    },
+    "dayOfYear" : {
+      "@id" : "http://www.w3.org/2006/time#dayOfYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    }
+  }
+}
