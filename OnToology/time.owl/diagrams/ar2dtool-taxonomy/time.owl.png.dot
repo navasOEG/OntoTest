@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "time:DateTimeInterval" "time:DurationDescription" "time:January" "time:ProperInterval" "time:Interval" "time:TemporalEntity" "time:Year" "time:AllenPoint" "time:DateTimeDescription" ; /*classes style*/
+	"time:ProperInterval" -> "time:Interval" [ label = "rdfs:subClassOf" ];
+	"time:Year" -> "time:DurationDescription" [ label = "rdfs:subClassOf" ];
+	"time:January" -> "time:DateTimeDescription" [ label = "rdfs:subClassOf" ];
+	"time:AllenPoint" -> "time:TemporalEntity" [ label = "rdfs:subClassOf" ];
+	"time:DateTimeInterval" -> "time:ProperInterval" [ label = "rdfs:subClassOf" ];
+	"time:Interval" -> "time:TemporalEntity" [ label = "rdfs:subClassOf" ];
+
+}

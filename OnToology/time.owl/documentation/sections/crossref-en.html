@@ -1,0 +1,1894 @@
+<h2>4. Cross reference for time classes, properties and dataproperties</h2>
+This section provides details for each class and property defined by time.
+<div id="classes">
+   <h2>Classes</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">
+            <span>allen point</span>
+         </a>
+      </li>
+      <li>
+         <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">
+            <span>date time description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#DateTimeInterval" title="http://www.w3.org/2006/time#DateTimeInterval">
+            <span>date time interval</span>
+         </a>
+      </li>
+      <li>
+         <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">
+            <span>day of week</span>
+         </a>
+      </li>
+      <li>
+         <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">
+            <span>duration description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Interval" title="http://www.w3.org/2006/time#Interval">
+            <span>interval</span>
+         </a>
+      </li>
+      <li>
+         <a href="#January" title="http://www.w3.org/2006/time#January">
+            <span>january</span>
+         </a>
+      </li>
+      <li>
+         <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">
+            <span>proper interval</span>
+         </a>
+      </li>
+      <li>
+         <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">
+            <span>temporal entity</span>
+         </a>
+      </li>
+      <li>
+         <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">
+            <span>temporal unit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Year" title="http://www.w3.org/2006/time#Year">
+            <span>year</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="AllenPoint">
+      <h3>allen point<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#AllenPoint</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#inDateTime" title="http://www.w3.org/2006/time#inDateTime">in date time</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#inXSDDateTime" title="http://www.w3.org/2006/time#inXSDDateTime">in x s d date time</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">has beginning</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#inside" title="http://www.w3.org/2006/time#inside">inside</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DateTimeDescription">
+      <h3>date time description<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#DateTimeDescription</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#timeZone" title="http://www.w3.org/2006/time#timeZone">time zone</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#week" title="http://www.w3.org/2006/time#week">week</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#month" title="http://www.w3.org/2006/time#month">month</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#dayOfWeek" title="http://www.w3.org/2006/time#dayOfWeek">day of week</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#day" title="http://www.w3.org/2006/time#day">day</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#January" title="http://www.w3.org/2006/time#January">january</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#day" title="http://www.w3.org/2006/time#day">day</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#dayOfWeek" title="http://www.w3.org/2006/time#dayOfWeek">day of week</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#month" title="http://www.w3.org/2006/time#month">month</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#timeZone" title="http://www.w3.org/2006/time#timeZone">time zone</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#week" title="http://www.w3.org/2006/time#week">week</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasDateTimeDescription"
+               title="http://www.w3.org/2006/time#hasDateTimeDescription">has date time description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#inDateTime" title="http://www.w3.org/2006/time#inDateTime">in date time</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DateTimeInterval">
+      <h3>date time interval<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#DateTimeInterval</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasDateTimeDescription"
+               title="http://www.w3.org/2006/time#hasDateTimeDescription">has date time description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#xsdDateTime" title="http://www.w3.org/2006/time#xsdDateTime">xsd date time</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DayOfWeek">
+      <h3>day of week<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#DayOfWeek</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>{ <a href="#Wednesday" title="http://www.w3.org/2006/time#Wednesday">wednesday</a> , <a href="#Friday" title="http://www.w3.org/2006/time#Friday">friday</a> , <a href="#Saturday" title="http://www.w3.org/2006/time#Saturday">saturday</a> , <a href="#Tuesday" title="http://www.w3.org/2006/time#Tuesday">tuesday</a> , <a href="#Monday" title="http://www.w3.org/2006/time#Monday">monday</a> , <a href="#Thursday" title="http://www.w3.org/2006/time#Thursday">thursday</a> , <a href="#Sunday" title="http://www.w3.org/2006/time#Sunday">sunday</a> }</dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#dayOfWeek" title="http://www.w3.org/2006/time#dayOfWeek">day of week</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#Friday" title="http://www.w3.org/2006/time#Friday">friday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Monday" title="http://www.w3.org/2006/time#Monday">monday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Saturday" title="http://www.w3.org/2006/time#Saturday">saturday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Sunday" title="http://www.w3.org/2006/time#Sunday">sunday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Thursday" title="http://www.w3.org/2006/time#Thursday">thursday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Tuesday" title="http://www.w3.org/2006/time#Tuesday">tuesday</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Wednesday" title="http://www.w3.org/2006/time#Wednesday">wednesday</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DurationDescription">
+      <h3>duration description<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#DurationDescription</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#hours" title="http://www.w3.org/2006/time#hours">hours</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Year" title="http://www.w3.org/2006/time#Year">year</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hours" title="http://www.w3.org/2006/time#hours">hours</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasDurationDescription"
+               title="http://www.w3.org/2006/time#hasDurationDescription">has duration description</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Interval">
+      <h3>interval<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Interval</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#inside" title="http://www.w3.org/2006/time#inside">inside</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="January">
+      <h3>january<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#January</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">value</span> 
+            <a href="#unitMonth" title="http://www.w3.org/2006/time#unitMonth">unit month</a>
+         </dd>
+         <dd>
+            <a href="#month" title="http://www.w3.org/2006/time#month">month</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">value</span> --01</dd>
+      </dl>
+   </div>
+   <div class="entity" id="ProperInterval">
+      <h3>proper interval<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#ProperInterval</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#DateTimeInterval" title="http://www.w3.org/2006/time#DateTimeInterval">date time interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#intervalBefore" title="http://www.w3.org/2006/time#intervalBefore">interval before</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalDuring" title="http://www.w3.org/2006/time#intervalDuring">interval during</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalEquals" title="http://www.w3.org/2006/time#intervalEquals">interval equals</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalFinishes" title="http://www.w3.org/2006/time#intervalFinishes">interval finishes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalMeets" title="http://www.w3.org/2006/time#intervalMeets">interval meets</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalOverlaps" title="http://www.w3.org/2006/time#intervalOverlaps">interval overlaps</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalStarts" title="http://www.w3.org/2006/time#intervalStarts">interval starts</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#intervalBefore" title="http://www.w3.org/2006/time#intervalBefore">interval before</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalDuring" title="http://www.w3.org/2006/time#intervalDuring">interval during</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalEquals" title="http://www.w3.org/2006/time#intervalEquals">interval equals</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalFinishes" title="http://www.w3.org/2006/time#intervalFinishes">interval finishes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalMeets" title="http://www.w3.org/2006/time#intervalMeets">interval meets</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalOverlaps" title="http://www.w3.org/2006/time#intervalOverlaps">interval overlaps</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#intervalStarts" title="http://www.w3.org/2006/time#intervalStarts">interval starts</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TemporalEntity">
+      <h3>temporal entity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#TemporalEntity</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#before" title="http://www.w3.org/2006/time#before">before</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">has beginning</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasDurationDescription"
+               title="http://www.w3.org/2006/time#hasDurationDescription">has duration description</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#before" title="http://www.w3.org/2006/time#before">before</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TemporalUnit">
+      <h3>temporal unit<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#TemporalUnit</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>{ <a href="#unitMonth" title="http://www.w3.org/2006/time#unitMonth">unit month</a> , <a href="#unitMinute" title="http://www.w3.org/2006/time#unitMinute">unit minute</a> , <a href="#unitDay" title="http://www.w3.org/2006/time#unitDay">unit day</a> , <a href="#unitYear" title="http://www.w3.org/2006/time#unitYear">unit year</a> , <a href="#unitHour" title="http://www.w3.org/2006/time#unitHour">unit hour</a> , <a href="#unitSecond" title="http://www.w3.org/2006/time#unitSecond">unit second</a> , <a href="#unitWeek" title="http://www.w3.org/2006/time#unitWeek">unit week</a> }</dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#unitDay" title="http://www.w3.org/2006/time#unitDay">unit day</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitHour" title="http://www.w3.org/2006/time#unitHour">unit hour</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitMinute" title="http://www.w3.org/2006/time#unitMinute">unit minute</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitMonth" title="http://www.w3.org/2006/time#unitMonth">unit month</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitSecond" title="http://www.w3.org/2006/time#unitSecond">unit second</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitWeek" title="http://www.w3.org/2006/time#unitWeek">unit week</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unitYear" title="http://www.w3.org/2006/time#unitYear">unit year</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Year">
+      <h3>year<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Year</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 1</dd>
+         <dd>
+            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#hours" title="http://www.w3.org/2006/time#hours">hours</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h2>Object Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#after" title="http://www.w3.org/2006/time#after">
+            <span>after</span>
+         </a>
+      </li>
+      <li>
+         <a href="#before" title="http://www.w3.org/2006/time#before">
+            <span>before</span>
+         </a>
+      </li>
+      <li>
+         <a href="#dayOfWeek" title="http://www.w3.org/2006/time#dayOfWeek">
+            <span>day of week</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">
+            <span>has beginning</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDateTimeDescription"
+            title="http://www.w3.org/2006/time#hasDateTimeDescription">
+            <span>has date time description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDurationDescription"
+            title="http://www.w3.org/2006/time#hasDurationDescription">
+            <span>has duration description</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasEnd" title="http://www.w3.org/2006/time#hasEnd">
+            <span>has end</span>
+         </a>
+      </li>
+      <li>
+         <a href="#inDateTime" title="http://www.w3.org/2006/time#inDateTime">
+            <span>in date time</span>
+         </a>
+      </li>
+      <li>
+         <a href="#inside" title="http://www.w3.org/2006/time#inside">
+            <span>inside</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalAfter" title="http://www.w3.org/2006/time#intervalAfter">
+            <span>interval after</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalBefore" title="http://www.w3.org/2006/time#intervalBefore">
+            <span>interval before</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalContains" title="http://www.w3.org/2006/time#intervalContains">
+            <span>interval contains</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalDuring" title="http://www.w3.org/2006/time#intervalDuring">
+            <span>interval during</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalEquals" title="http://www.w3.org/2006/time#intervalEquals">
+            <span>interval equals</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalFinishedBy" title="http://www.w3.org/2006/time#intervalFinishedBy">
+            <span>interval finished by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalFinishes" title="http://www.w3.org/2006/time#intervalFinishes">
+            <span>interval finishes</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalMeets" title="http://www.w3.org/2006/time#intervalMeets">
+            <span>interval meets</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalMetBy" title="http://www.w3.org/2006/time#intervalMetBy">
+            <span>interval met by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalOverlappedBy" title="http://www.w3.org/2006/time#intervalOverlappedBy">
+            <span>interval overlapped by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalOverlaps" title="http://www.w3.org/2006/time#intervalOverlaps">
+            <span>interval overlaps</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalStartedBy" title="http://www.w3.org/2006/time#intervalStartedBy">
+            <span>interval started by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#intervalStarts" title="http://www.w3.org/2006/time#intervalStarts">
+            <span>interval starts</span>
+         </a>
+      </li>
+      <li>
+         <a href="#timeZone" title="http://www.w3.org/2006/time#timeZone">
+            <span>time zone</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitType" title="http://www.w3.org/2006/time#unitType">
+            <span>unit type</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="after">
+      <h3>after<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#after</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#before" title="http://www.w3.org/2006/time#before">before</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="before">
+      <h3>before<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#before</p>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> transitive</p>
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#intervalBefore" title="http://www.w3.org/2006/time#intervalBefore">interval before</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#after" title="http://www.w3.org/2006/time#after">after</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="dayOfWeek">
+      <h3>day of week<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#dayOfWeek</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasBeginning">
+      <h3>has beginning<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hasBeginning</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDateTimeDescription">
+      <h3>has date time description<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hasDateTimeDescription</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeInterval" title="http://www.w3.org/2006/time#DateTimeInterval">date time interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDurationDescription">
+      <h3>has duration description<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hasDurationDescription</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasEnd">
+      <h3>has end<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hasEnd</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="inDateTime">
+      <h3>in date time<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#inDateTime</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="inside">
+      <h3>inside<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#inside</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalAfter">
+      <h3>interval after<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalAfter</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalBefore" title="http://www.w3.org/2006/time#intervalBefore">interval before</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalBefore">
+      <h3>interval before<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalBefore</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#before" title="http://www.w3.org/2006/time#before">before</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalAfter" title="http://www.w3.org/2006/time#intervalAfter">interval after</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalContains">
+      <h3>interval contains<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalContains</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalDuring" title="http://www.w3.org/2006/time#intervalDuring">interval during</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalDuring">
+      <h3>interval during<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalDuring</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalContains" title="http://www.w3.org/2006/time#intervalContains">interval contains</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalEquals">
+      <h3>interval equals<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalEquals</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalFinishedBy">
+      <h3>interval finished by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalFinishedBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalFinishes" title="http://www.w3.org/2006/time#intervalFinishes">interval finishes</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalFinishes">
+      <h3>interval finishes<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalFinishes</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalFinishedBy" title="http://www.w3.org/2006/time#intervalFinishedBy">interval finished by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalMeets">
+      <h3>interval meets<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalMeets</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalMetBy" title="http://www.w3.org/2006/time#intervalMetBy">interval met by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalMetBy">
+      <h3>interval met by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalMetBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalMeets" title="http://www.w3.org/2006/time#intervalMeets">interval meets</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalOverlappedBy">
+      <h3>interval overlapped by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalOverlappedBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalOverlaps" title="http://www.w3.org/2006/time#intervalOverlaps">interval overlaps</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalOverlaps">
+      <h3>interval overlaps<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalOverlaps</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalOverlappedBy" title="http://www.w3.org/2006/time#intervalOverlappedBy">interval overlapped by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalStartedBy">
+      <h3>interval started by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalStartedBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalStarts" title="http://www.w3.org/2006/time#intervalStarts">interval starts</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="intervalStarts">
+      <h3>interval starts<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#intervalStarts</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#intervalStartedBy" title="http://www.w3.org/2006/time#intervalStartedBy">interval started by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="timeZone">
+      <h3>time zone<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#timeZone</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2006/timezone#TimeZone">time zone</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="unitType">
+      <h3>unit type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitType</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h2>Data Properties</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#day" title="http://www.w3.org/2006/time#day">
+            <span>day</span>
+         </a>
+      </li>
+      <li>
+         <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">
+            <span>day of year</span>
+         </a>
+      </li>
+      <li>
+         <a href="#days" title="http://www.w3.org/2006/time#days">
+            <span>days</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hour" title="http://www.w3.org/2006/time#hour">
+            <span>hour</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hours" title="http://www.w3.org/2006/time#hours">
+            <span>hours</span>
+         </a>
+      </li>
+      <li>
+         <a href="#inXSDDateTime" title="http://www.w3.org/2006/time#inXSDDateTime">
+            <span>in x s d date time</span>
+         </a>
+      </li>
+      <li>
+         <a href="#minute" title="http://www.w3.org/2006/time#minute">
+            <span>minute</span>
+         </a>
+      </li>
+      <li>
+         <a href="#minutes" title="http://www.w3.org/2006/time#minutes">
+            <span>minutes</span>
+         </a>
+      </li>
+      <li>
+         <a href="#month" title="http://www.w3.org/2006/time#month">
+            <span>month</span>
+         </a>
+      </li>
+      <li>
+         <a href="#months" title="http://www.w3.org/2006/time#months">
+            <span>months</span>
+         </a>
+      </li>
+      <li>
+         <a href="#second" title="http://www.w3.org/2006/time#second">
+            <span>second</span>
+         </a>
+      </li>
+      <li>
+         <a href="#seconds" title="http://www.w3.org/2006/time#seconds">
+            <span>seconds</span>
+         </a>
+      </li>
+      <li>
+         <a href="#week" title="http://www.w3.org/2006/time#week">
+            <span>week</span>
+         </a>
+      </li>
+      <li>
+         <a href="#weeks" title="http://www.w3.org/2006/time#weeks">
+            <span>weeks</span>
+         </a>
+      </li>
+      <li>
+         <a href="#xsdDateTime" title="http://www.w3.org/2006/time#xsdDateTime">
+            <span>xsd date time</span>
+         </a>
+      </li>
+      <li>
+         <a href="#year" title="http://www.w3.org/2006/time#year">
+            <span>year</span>
+         </a>
+      </li>
+      <li>
+         <a href="#years" title="http://www.w3.org/2006/time#years">
+            <span>years</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="day">
+      <h3>day<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#day</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#gDay">g day</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="dayOfYear">
+      <h3>day of year<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#dayOfYear</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="days">
+      <h3>days<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#days</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hour">
+      <h3>hour<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hour</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hours">
+      <h3>hours<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#hours</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="inXSDDateTime">
+      <h3>in x s d date time<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#inXSDDateTime</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="minute">
+      <h3>minute<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#minute</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="minutes">
+      <h3>minutes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#minutes</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="month">
+      <h3>month<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#month</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#gMonth">g month</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="months">
+      <h3>months<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#months</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="second">
+      <h3>second<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#second</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="seconds">
+      <h3>seconds<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#seconds</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="week">
+      <h3>week<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#week</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">non negative integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="weeks">
+      <h3>weeks<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#weeks</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="xsdDateTime">
+      <h3>xsd date time<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#xsdDateTime</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeInterval" title="http://www.w3.org/2006/time#DateTimeInterval">date time interval</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="year">
+      <h3>year<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#year</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">date time description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#gYear">g year</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="years">
+      <h3>years<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#years</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">duration description</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h2>Named Individuals</h2>
+   <ul class="hlist">
+      <li>
+         <a href="#Friday" title="http://www.w3.org/2006/time#Friday">
+            <span>friday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Monday" title="http://www.w3.org/2006/time#Monday">
+            <span>monday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Saturday" title="http://www.w3.org/2006/time#Saturday">
+            <span>saturday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Sunday" title="http://www.w3.org/2006/time#Sunday">
+            <span>sunday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Thursday" title="http://www.w3.org/2006/time#Thursday">
+            <span>thursday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Tuesday" title="http://www.w3.org/2006/time#Tuesday">
+            <span>tuesday</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitDay" title="http://www.w3.org/2006/time#unitDay">
+            <span>unit day</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitHour" title="http://www.w3.org/2006/time#unitHour">
+            <span>unit hour</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitMinute" title="http://www.w3.org/2006/time#unitMinute">
+            <span>unit minute</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitMonth" title="http://www.w3.org/2006/time#unitMonth">
+            <span>unit month</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitSecond" title="http://www.w3.org/2006/time#unitSecond">
+            <span>unit second</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitWeek" title="http://www.w3.org/2006/time#unitWeek">
+            <span>unit week</span>
+         </a>
+      </li>
+      <li>
+         <a href="#unitYear" title="http://www.w3.org/2006/time#unitYear">
+            <span>unit year</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Wednesday" title="http://www.w3.org/2006/time#Wednesday">
+            <span>wednesday</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="Friday">
+      <h3>friday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Friday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Monday">
+      <h3>monday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Monday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Saturday">
+      <h3>saturday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Saturday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Sunday">
+      <h3>sunday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Sunday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Thursday">
+      <h3>thursday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Thursday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Tuesday">
+      <h3>tuesday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Tuesday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitDay">
+      <h3>unit day<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitDay</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitHour">
+      <h3>unit hour<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitHour</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitMinute">
+      <h3>unit minute<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitMinute</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitMonth">
+      <h3>unit month<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitMonth</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitSecond">
+      <h3>unit second<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitSecond</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitWeek">
+      <h3>unit week<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitWeek</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="unitYear">
+      <h3>unit year<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#unitYear</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#TemporalUnit" title="http://www.w3.org/2006/time#TemporalUnit">temporal unit</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Wednesday">
+      <h3>wednesday<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#Wednesday</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DayOfWeek" title="http://www.w3.org/2006/time#DayOfWeek">day of week</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div>
