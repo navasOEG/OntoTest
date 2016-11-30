@@ -40,7 +40,7 @@
 
 <!-- Temporal Concepts -->
 
-  <owl:Class rdf:ID="Instant"> 
+  <owl:Class rdf:ID="AllenPoint"> 
     <rdfs:subClassOf rdf:resource="#TemporalEntity"/>
   </owl:Class>
 
@@ -50,14 +50,14 @@
 
   <owl:Class rdf:ID="TemporalEntity">
     <owl:unionOf rdf:parseType="Collection">
-      <owl:Class rdf:about="#Instant" />
+      <owl:Class rdf:about="#AllenPoint" />
       <owl:Class rdf:about="#Interval" />
     </owl:unionOf>
   </owl:Class>
 
   <owl:Class rdf:ID="ProperInterval"> 
     <rdfs:subClassOf rdf:resource="#Interval"/>
-    <owl:disjointWith rdf:resource="#Instant"/>
+    <owl:disjointWith rdf:resource="#AllenPoint"/>
   </owl:Class>
 
 <!-- Topological Temporal Relations -->
@@ -74,17 +74,17 @@
 
   <owl:ObjectProperty rdf:ID="hasBeginning">
     <rdfs:domain rdf:resource="#TemporalEntity" />
-    <rdfs:range  rdf:resource="#Instant" />
+    <rdfs:range  rdf:resource="#AllenPoint" />
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:ID="hasEnd">
     <rdfs:domain rdf:resource="#TemporalEntity" />
-    <rdfs:range  rdf:resource="#Instant" />
+    <rdfs:range  rdf:resource="#AllenPoint" />
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:ID="inside">
     <rdfs:domain rdf:resource="#Interval" />
-    <rdfs:range  rdf:resource="#Instant" />
+    <rdfs:range  rdf:resource="#AllenPoint" />
   </owl:ObjectProperty>
 
 <!-- Interval Relations -->
@@ -456,12 +456,12 @@
   </owl:Class>
 
   <owl:ObjectProperty rdf:ID="inDateTime">
-    <rdfs:domain rdf:resource="#Instant" />
+    <rdfs:domain rdf:resource="#AllenPoint" />
     <rdfs:range  rdf:resource="#DateTimeDescription" />
   </owl:ObjectProperty>
 
   <owl:DatatypeProperty rdf:ID="inXSDDateTime">
-    <rdfs:domain rdf:resource="#Instant" />
+    <rdfs:domain rdf:resource="#AllenPoint" />
     <rdfs:range  rdf:resource="&xsd;dateTime" />
   </owl:DatatypeProperty>
 
