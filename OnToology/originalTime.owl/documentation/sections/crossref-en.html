@@ -69,15 +69,15 @@ This section provides details for each class and property defined by time.
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
+            <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#timeZone" title="http://www.w3.org/2006/time#timeZone">time zone</a>
             <sup class="type-op" title="object property">op</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -85,15 +85,11 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
-            <sup class="type-op" title="object property">op</sup> 
-            <span class="logic">exactly</span> 1</dd>
-         <dd>
-            <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
+            <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
+            <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -109,9 +105,13 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
+            <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#January" title="http://www.w3.org/2006/time#January">january</a>
@@ -201,19 +201,15 @@ This section provides details for each class and property defined by time.
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#hours" title="http://www.w3.org/2006/time#hours">hours</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -221,11 +217,15 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
+            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dt>has sub-classes</dt>
@@ -462,15 +462,19 @@ This section provides details for each class and property defined by time.
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dd>
-            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
             <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 0</dd>
-         <dd>
-            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 0</dd>
+            <span class="logic">exactly</span> 1</dd>
          <dd>
             <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
@@ -478,15 +482,11 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
-            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 1</dd>
-         <dd>
-            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
-            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
       </dl>
