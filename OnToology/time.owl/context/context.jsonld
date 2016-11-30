@@ -47,9 +47,6 @@
       "@id" : "http://www.w3.org/2006/time#hours",
       "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
     },
-    "Instant" : {
-      "@id" : "http://www.w3.org/2006/time#Instant"
-    },
     "TimeZone" : {
       "@id" : "http://www.w3.org/2006/timezone#TimeZone"
     },
@@ -192,6 +189,9 @@
     },
     "January" : {
       "@id" : "http://www.w3.org/2006/time#January"
+    },
+    "AllenPoint" : {
+      "@id" : "http://www.w3.org/2006/time#AllenPoint"
     },
     "intervalStarts" : {
       "@id" : "http://www.w3.org/2006/time#intervalStarts",

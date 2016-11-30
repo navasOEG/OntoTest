@@ -4,6 +4,11 @@ This section provides details for each class and property defined by time.
    <h2>Classes</h2>
    <ul class="hlist">
       <li>
+         <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">
+            <span>allen point</span>
+         </a>
+      </li>
+      <li>
          <a href="#DateTimeDescription" title="http://www.w3.org/2006/time#DateTimeDescription">
             <span>date time description</span>
          </a>
@@ -21,11 +26,6 @@ This section provides details for each class and property defined by time.
       <li>
          <a href="#DurationDescription" title="http://www.w3.org/2006/time#DurationDescription">
             <span>duration description</span>
-         </a>
-      </li>
-      <li>
-         <a href="#Instant" title="http://www.w3.org/2006/time#Instant">
-            <span>instant</span>
          </a>
       </li>
       <li>
@@ -59,6 +59,39 @@ This section provides details for each class and property defined by time.
          </a>
       </li>
    </ul>
+   <div class="entity" id="AllenPoint">
+      <h3>allen point<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2006/time#AllenPoint</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#inDateTime" title="http://www.w3.org/2006/time#inDateTime">in date time</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#inXSDDateTime" title="http://www.w3.org/2006/time#inXSDDateTime">in x s d date time</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">has beginning</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#inside" title="http://www.w3.org/2006/time#inside">inside</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="DateTimeDescription">
       <h3>date time description<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -69,15 +102,15 @@ This section provides details for each class and property defined by time.
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
+            <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#timeZone" title="http://www.w3.org/2006/time#timeZone">time zone</a>
             <sup class="type-op" title="object property">op</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#hour" title="http://www.w3.org/2006/time#hour">hour</a>
+            <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -85,15 +118,11 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
-            <sup class="type-op" title="object property">op</sup> 
-            <span class="logic">exactly</span> 1</dd>
-         <dd>
-            <a href="#dayOfYear" title="http://www.w3.org/2006/time#dayOfYear">day of year</a>
+            <a href="#year" title="http://www.w3.org/2006/time#year">year</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
+            <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -109,9 +138,13 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#second" title="http://www.w3.org/2006/time#second">second</a>
+            <a href="#minute" title="http://www.w3.org/2006/time#minute">minute</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
+         <dd>
+            <a href="#unitType" title="http://www.w3.org/2006/time#unitType">unit type</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1</dd>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#January" title="http://www.w3.org/2006/time#January">january</a>
@@ -201,19 +234,15 @@ This section provides details for each class and property defined by time.
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#hours" title="http://www.w3.org/2006/time#hours">hours</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">max</span> 1</dd>
-         <dd>
-            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
@@ -221,11 +250,15 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
+            <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">max</span> 1</dd>
+         <dd>
             <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dd>
-            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">max</span> 1</dd>
          <dt>has sub-classes</dt>
@@ -249,39 +282,6 @@ This section provides details for each class and property defined by time.
             <a href="#hasDurationDescription"
                title="http://www.w3.org/2006/time#hasDurationDescription">has duration description</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="Instant">
-      <h3>instant<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2006/time#Instant</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#TemporalEntity" title="http://www.w3.org/2006/time#TemporalEntity">temporal entity</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#inDateTime" title="http://www.w3.org/2006/time#inDateTime">in date time</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#inXSDDateTime" title="http://www.w3.org/2006/time#inXSDDateTime">in x s d date time</a>
-            <sup class="type-dp" title="data property">dp</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#hasBeginning" title="http://www.w3.org/2006/time#hasBeginning">has beginning</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasEnd" title="http://www.w3.org/2006/time#hasEnd">has end</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#inside" title="http://www.w3.org/2006/time#inside">inside</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">proper interval</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -377,7 +377,7 @@ This section provides details for each class and property defined by time.
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -392,7 +392,7 @@ This section provides details for each class and property defined by time.
       <dl class="description">
          <dt>is equivalent to</dt>
          <dd>
-            <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
             <sup class="type-c" title="class">c</sup> 
             <span class="logic">or</span> 
             <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
@@ -400,7 +400,7 @@ This section provides details for each class and property defined by time.
          </dd>
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+            <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Interval" title="http://www.w3.org/2006/time#Interval">interval</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -462,15 +462,19 @@ This section provides details for each class and property defined by time.
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dd>
-            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
+            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
             <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 0</dd>
-         <dd>
-            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 0</dd>
+            <span class="logic">exactly</span> 1</dd>
          <dd>
             <a href="#weeks" title="http://www.w3.org/2006/time#weeks">weeks</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">exactly</span> 0</dd>
+         <dd>
+            <a href="#days" title="http://www.w3.org/2006/time#days">days</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
@@ -478,15 +482,11 @@ This section provides details for each class and property defined by time.
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
-            <a href="#years" title="http://www.w3.org/2006/time#years">years</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="logic">exactly</span> 1</dd>
-         <dd>
-            <a href="#minutes" title="http://www.w3.org/2006/time#minutes">minutes</a>
+            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
          <dd>
-            <a href="#seconds" title="http://www.w3.org/2006/time#seconds">seconds</a>
+            <a href="#months" title="http://www.w3.org/2006/time#months">months</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 0</dd>
       </dl>
@@ -706,7 +706,7 @@ This section provides details for each class and property defined by time.
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -772,7 +772,7 @@ This section provides details for each class and property defined by time.
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -789,7 +789,7 @@ This section provides details for each class and property defined by time.
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -816,7 +816,7 @@ This section provides details for each class and property defined by time.
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -1364,7 +1364,7 @@ This section provides details for each class and property defined by time.
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Instant" title="http://www.w3.org/2006/time#Instant">instant</a>
+               <a href="#AllenPoint" title="http://www.w3.org/2006/time#AllenPoint">allen point</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
